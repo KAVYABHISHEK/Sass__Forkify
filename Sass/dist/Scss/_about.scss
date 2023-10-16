@@ -1,0 +1,89 @@
+
+.Menu{
+    padding-bottom: 2rem;
+
+    &__about__bio-image{
+        height: 50vh;
+        width: 100%;
+        background: 
+          linear-gradient(
+            to right,
+            rgba($primary-color, 0.8),
+            rgba($primary-color, 0.3)
+        ),
+         url('../img/Food-Wallpapers-HD-For-Desktop.jpg') center top;
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+
+        
+    }
+  
+
+    p{
+        margin-bottom:2rem ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    h3{
+        margin-block-end:2rem ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $secondary-color;
+    }
+    .text-secondary{
+        margin-block-end:2rem ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__bio{
+        width: 80%;
+        text-align: center;
+    
+    
+        .text-secondary{
+            padding-bottom: 1rem;
+        }
+
+        
+    }
+    
+  
+}
+
+
+
+
+.menu{
+    width:60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.s-icons{
+    display: flex;
+    flex-direction: column;
+
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+
+      a{
+        padding: 0.4rem;
+         @include transition-ease;
+
+        &:hover{
+            color: $secondary-color;
+          }
+       }  
+}
+
